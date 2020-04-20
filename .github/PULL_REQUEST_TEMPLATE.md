@@ -11,3 +11,7 @@
 
 ## Screenshots
 <!--- If applicable. --->
+
+## Documentation
+<!--- Do any of the changes affect the accuracy of existing documentation? --->
+<!--- Do they warrant new sections within the current documentation? --->
