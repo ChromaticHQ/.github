@@ -1,8 +1,8 @@
 ---
-name: Core/security update
-about: Create a ticket to update Drupal core or a contributed module.
+name: Dependency security update
+about: Create a ticket to update Drupal core, a contributed module, or another dependency.
 title: ''
-labels: 'P3: high priority, dept: back-end :back:'
+labels: 'P3: high priority'
 assignees: ''
 
 ---
