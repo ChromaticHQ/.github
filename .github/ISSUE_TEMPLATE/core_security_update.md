@@ -3,7 +3,7 @@ name: Core/security update
 about: Create a ticket to update Drupal core or a contributed module.
 title: ''
 labels: 'P3: high priority, dept: back-end :back:'
-assignees: 'cjming'
+assignees: ''
 
 ---
 <!-- Please apply all relevant labels including those to specify which sites are affected. -->
