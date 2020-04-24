@@ -2,7 +2,7 @@
 name: Task
 about: Create a task to describe an enhancement or change that is not a bug.
 title: ''
-labels: 'enhancement, priority: 3 (medium)'
+labels: 'enhancement'
 assignees: ''
 
 ---
