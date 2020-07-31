@@ -15,38 +15,26 @@ warrant their own ticket that references back to a line item here.
 - [ ] Determine if any existing traffic needs to be proxied or redirected.
 - [ ] Determine how redirects will be handled if they are needed.
 - [ ] Determine where the database will come from.
-- [ ] Determine who manages DNS
-- [ ] Configure Google Analytics or your analytics tool of choice
-- [ ] Determine the caching strategy
-
-
-- [ ] Create Jenkins production cache clear job
-- [ ] Run load tests to validate infrastructure
-- [ ] Verify that the web server instance size large enough
-- [ ] Verify automatic deployments are working
-- [ ] Configue New Relic
-- [ ] Configure redirects from www to the base url (or vice-versa)
-- [ ] Verify that HTTP/2 is enabled.
-
-- [ ] Is the Security Review module installed and providing a clean report?
-- [ ] Are all of the checks on Drupal's status report page reporting green?
-- [ ] Are all development related modules disabled?
-
+- [ ] Determine who manages DNS.
+- [ ] Determine the caching strategy.
 
 ## Security
-- [ ] Security Review module (https://www.drupal.org/project/security_review)
+- [ ] Review the Security Review module (https://www.drupal.org/project/security_review).
 - [ ] Verify that development related accounts/passwords have been reset or removed.
-- [ ] Verify that read only permissions are set on settings files and services.yml files.
-- [ ] Confirm that development modules are disabled on produciton (`kint`, `devel_generate`, `devel`, etc)
-- [ ] Verify that `$settings['trusted_host_patterns']` is configured for Drupal.
-- [ ] Verify that the mapping in `sites.php` supports the production domain.
+- [ ] Verify that proper permissions are set on settings and services.yml files.
+- [ ] Confirm that development modules are disabled on produciton
+      (`kint`, `devel_generate`, `devel`, etc).
+- [ ] Verify that `$settings['trusted_host_patterns']` is configured.
 
 ## Analytics
-- [ ] Configure Google Tag Manager
+- [ ] Configure Google Tag Manager if applicable.
+- [ ] Configure Google Analytics or your analytics tool of choice.
+- [ ] Configue New Relic if applicable.
 
 ## QA Site
 - [ ] Determine if a QA site is needed.
-- [ ] Confirm that `robots.txt` is configured to block traffic to the QA site.
+- [ ] Confirm that `robots.txt` or the corresponding HTTP header is configured
+      to block traffic to the QA site.
 - [ ] Implement password protection with http-auth if required.
 
 ## Performance
@@ -62,24 +50,33 @@ warrant their own ticket that references back to a line item here.
 - [ ] Verify Varnish is serving HIT's if applicable.
 - [ ] Configure and test the load balancer if applicable.
 - [ ] Verify that cron runs from pages requests are disabled.
-Is asset bundling configured properly?
 
 ## Hosting
-- [ ] Setup HTTPS and determine who will provide the SSL cert.
-Do we have https setup and SSL certificate reminders in place?
+- [ ] Determine who will provide the SSL certificate.
+- [ ] Setup HTTPS and test the SSL certificate.
+- [ ] Setup SSL certificate reminders.
+- [ ] Verify that the web server instance size is large enough.
+- [ ] Verify that HTTP/2 is enabled.
+- [ ] Configure redirects from `www` to the base URL (or vice-versa).
+- [ ] Verify that redirects are working correctly.
+- [ ] Verify that asset compression is enabled.
 
 ## Infrastructure
 - [ ] Setup database backups.
-- [ ] Verify that Drupal's `settings.php` and `services.yml` files have the correct read-only permissions.
+- [ ] Create Jenkins production cache clear job
+- [ ] Verify that Drupal's `settings.php` and `services.yml` files have the
+      correct read-only permissions.
 - [ ] Confirm syslog visibility and connectivity with external tools.
 - [ ] Verify that errors are configured to be suppressed.
 - [ ] Setup Jenkins jobs for QA (and check that PROD jenkins jobs all running)
 - [ ] Verify that Ansible playbooks follow the latest best practices.
 - [ ] Verify file uploads work.
 - [ ] Verify image styles work.
+- [ ] Run load tests to validate infrastructure.
 
 ## Development
-
+- [ ] Verify that the mapping in `sites.php` supports the production domain.
+- [ ] Verify automatic deployments are working.
 - [ ] Verify that PHP error messages are suppressed.
 - [ ] Disable database logging.
 - [ ] Enable syslog.
@@ -91,12 +88,29 @@ Do we have https setup and SSL certificate reminders in place?
 - [ ] Configure external cron trigger (Jenkins/Crontab/etc).
 - [ ] Verify that the deployment process works.
 - [ ] Check site error logs and fix persistent issues.
+- [ ] Verify that Drupal's status report page is clear of issues.
+- [ ] Verify that migrations are complete.
 
-## Launch Day
-- [ ] Disable http-auth if applicable.
+## Launch Prep
+- [ ] Determine who will make the go/no-go call.
+- [ ] Create a roll-back plan.
 - [ ] Notify the devops team and confirm they understands what they need to do.
 - [ ] Create ordered checklist and timeline.
+- [ ] Determine who will make the go/no-go call.
+- [ ] Determine who will determine if a roll-back is needed.
 - [ ] Determine who manages DNS and will do the cutover.
 - [ ] Verify that `robots.txt` is configured to allow traffic to the production
-      site (i.e. did you remove any changes that were made for development)?
+      site (i.e. remove any changes that were made for development).
+- [ ] Verify that users of the site are aware of the cutover time/plan.
+
+## Site Launch
+- [ ] Disable http-auth if applicable.
+- [ ] Change DNS.
+= [ ] Smoke test the site for egregious issues.
+
+## Post Launch
+- [ ] Monitor site log for errors.
+- [ ] Verify caching is working as intended.
+- [ ] Verify analytics is reporting as expected.
+- [ ] Run performance tests to confirm the site works as expected.
 
