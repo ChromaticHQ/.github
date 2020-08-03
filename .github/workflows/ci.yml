@@ -1,0 +1,27 @@
+---
+name: Code Analysis
+on:  # yamllint disable-line rule:truthy
+  # Trigger the workflow on pushes to the default branch and all pull requests.
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  markdownlint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Lint markdown files
+        uses: avto-dev/markdown-lint@v1
+        with:
+          args: 'README.md .github/'
+
+  yaml-lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: YAML lint
+        uses: ibiqlik/action-yamllint@master
+        with:
+          config_file: .yamllint.yml
