@@ -52,9 +52,9 @@ please update this ticket description to include references to those tickets.
       `development.services.yml`)
 - [ ] Verify Redis connectivity and Redis is used for caching.
 - [ ] Verify that Redis is using the correct cache prefix if applicable.
-- [ ] Configured and test the CDN if applicable.
-- [ ] Verify the CDN is serving HIT's if applicable.
-- [ ] Verify Varnish is serving HIT's if applicable.
+- [ ] Configure and test the CDN if applicable.
+- [ ] Verify the CDN is serving HITs if applicable.
+- [ ] Verify Varnish is serving HITs if applicable.
 - [ ] Configure and test the load balancer if applicable.
 - [ ] Verify that cron runs from pages requests are disabled.
 
