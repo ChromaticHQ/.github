@@ -99,6 +99,7 @@ warrant their own ticket that references back to a line item here.
 - [ ] Determine who will make the go/no-go call.
 - [ ] Determine who will determine if a roll-back is needed.
 - [ ] Determine who manages DNS and will do the cutover.
+- [ ] Lower DNS TTL.
 - [ ] Verify that `robots.txt` is configured to allow traffic to the production
       site (i.e. remove any changes that were made for development).
 - [ ] Verify that users of the site are aware of the cutover time/plan.
