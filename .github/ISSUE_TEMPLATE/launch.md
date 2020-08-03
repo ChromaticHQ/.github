@@ -88,7 +88,7 @@ please update this ticket description to include references to those tickets.
 - [ ] Verify that `$settings['hash_salt']` is set.
 - [ ] Verify that `$settings['update_free_access'] = FALSE;` is set.
 - [ ] Verify that `$settings['omit_vary_cookie']` is configured correctly.
-- [ ] Verify that `$settings['file_public_path']` and `file_private_path` is
+- [ ] Verify that `$settings['file_public_path']` and `file_private_path` are
       configured correctly.
 - [ ] Confirm that the 404 page is working and styled as expected.
 - [ ] Verify that `$settings['reverse_proxy_*']` configuration is set correctly
@@ -139,16 +139,18 @@ please update this ticket description to include references to those tickets.
 ## Site Launch
 - [ ] Disable HTTP Authorization if applicable.
 - [ ] Update DNS entries.
-- [ ] Test the site for egregious issues.
+- [ ] Test the site manually for large obvious issues.
 
 ## Post Launch
 - [ ] Monitor site log for errors.
 - [ ] Verify caching is working as intended.
 - [ ] Verify analytics is reporting as expected.
-- [ ] Run performance tests to confirm the site works as expected.
+- [ ] Run performance tests with a tool such as Calibre, Lighthouse, or
+      PageSpeed Insights to confirm the site performs as expected.
 - [ ] Update QA environments to pull databases from the new production site.
 - [ ] Update Stage File Proxy origin URL configuration to point to the
       production domain (e.g. `$config['stage_file_proxy.settings']['origin']`).
 - [ ] Update automated or manual tests to point to the new production domain.
 - [ ] Confirm that third party integrations are working as expected.
-- [ ] Disable migration related modules and database connectivity as applicable.
+- [ ] Disable migration related modules and source database connectivity as
+      applicable.
