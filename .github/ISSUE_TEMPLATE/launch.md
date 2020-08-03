@@ -93,6 +93,8 @@ please update this ticket description to include references to those tickets.
 - [ ] Confirm that the 404 page is working and styled as expected.
 - [ ] Verify that `$settings['reverse_proxy_*']` configuration is set correctly
       if a CDN or reverse-proxy is being used.
+- [ ] Run performance tests with a tool such as Calibre, Lighthouse, or
+      PageSpeed Insights and fix the issues and/or log post launch tickets.
 
 ## Hosting
 - [ ] Determine who will provide the SSL certificate.
