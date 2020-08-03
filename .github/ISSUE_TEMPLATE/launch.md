@@ -7,8 +7,10 @@ assignees: ''
 
 ---
 
-Many of the following items can simply be confirmed and checked off. Some may
-warrant their own ticket that references back to a line item here.
+Please check off line-items as they are completed and leave notes if necessary.
+If an item is not relevant to the site launch, [strike it out](https://docs.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax#styling-text)
+ex: `~~Not relevant item~~`. If child tickets are created for any line-item,
+please update this ticket description to include references to those tickets.
 
 ## Preparation
 - [ ] Determine production domain.
@@ -19,7 +21,7 @@ warrant their own ticket that references back to a line item here.
 - [ ] Determine the caching strategy.
 
 ## Security
-- [ ] Review the Security Review module (https://www.drupal.org/project/security_review).
+- [ ] Review the [Security Review module](https://www.drupal.org/project/security_review).
 - [ ] Verify that development related accounts/passwords have been reset or removed.
 - [ ] Verify that proper permissions are set on settings and services.yml files.
 - [ ] Confirm that development modules are disabled on produciton
@@ -29,7 +31,8 @@ warrant their own ticket that references back to a line item here.
 ## Analytics
 - [ ] Configure Google Tag Manager if applicable.
 - [ ] Configure Google Analytics or your analytics tool of choice.
-- [ ] Configue New Relic if applicable.
+- [ ] Configure New Relic if applicable.
+- [ ] Verify analytics tools are only reporting from the production environment.
 
 ## QA Site
 - [ ] Determine if a QA site is needed.
@@ -92,13 +95,12 @@ warrant their own ticket that references back to a line item here.
 - [ ] Verify that migrations are complete.
 
 ## Launch Prep
-- [ ] Determine who will make the go/no-go call.
 - [ ] Create a roll-back plan.
 - [ ] Notify the devops team and confirm they understands what they need to do.
 - [ ] Create ordered checklist and timeline.
-- [ ] Determine who will make the go/no-go call.
+- [ ] Determine who will make the go/no-go call for launch.
 - [ ] Determine who will determine if a roll-back is needed.
-- [ ] Determine who manages DNS and will do the cutover.
+- [ ] Determine who manages DNS and will update the entries for launch.
 - [ ] Lower DNS TTL.
 - [ ] Verify that `robots.txt` is configured to allow traffic to the production
       site (i.e. remove any changes that were made for development).
@@ -106,12 +108,11 @@ warrant their own ticket that references back to a line item here.
 
 ## Site Launch
 - [ ] Disable http-auth if applicable.
-- [ ] Change DNS.
-= [ ] Smoke test the site for egregious issues.
+- [ ] Update DNS entries.
+- [ ] Test the site for egregious issues.
 
 ## Post Launch
 - [ ] Monitor site log for errors.
 - [ ] Verify caching is working as intended.
 - [ ] Verify analytics is reporting as expected.
 - [ ] Run performance tests to confirm the site works as expected.
-
