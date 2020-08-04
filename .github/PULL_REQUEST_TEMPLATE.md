@@ -19,10 +19,7 @@
 
 ## PR Author Checklist
 
-- [ ] My PR description includes a reference to a ticket or other "motivation"
-for these changes.
+- [ ] My PR description includes a reference to a ticket or other "motivation" for these changes.
 - [ ] My PR description includes details of how I tested these changes.
-- [ ] My PR description includes testing instructions for reviewers with links
-to the testing environment, if applicable.
-- [ ] My code includes documentation updates to existing documentation or new
-sections if applicable.
+- [ ] My PR description includes testing instructions for reviewers with links to the testing environment, if applicable.
+- [ ] My code includes documentation updates to existing documentation or new sections if applicable.
