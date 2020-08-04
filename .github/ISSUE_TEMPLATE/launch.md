@@ -127,7 +127,7 @@ please update this ticket description to include references to those tickets.
 - [ ] Notify the devops team and confirm they understands what they need to do.
 - [ ] Create ordered checklist and timeline.
 - [ ] Determine who will make the go/no-go call for launch.
-- [ ] Determine who will determine if a roll-back is needed.
+- [ ] Determine who will decide if a roll-back is needed.
 - [ ] Determine who manages DNS and will update the entries for launch.
 - [ ] Lower DNS TTL to ensure quick propagation on launch day.
 - [ ] Verify that `robots.txt` is configured to allow traffic to the production
