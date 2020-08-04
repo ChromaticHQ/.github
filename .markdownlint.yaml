@@ -1,2 +1,8 @@
 ---
+# Disable line length rule as hard wrapping makes issue/PR templates render strangely.
+# https://github.com/DavidAnson/markdownlint/blob/master/doc/Rules.md#md013---line-length
+MD013: false
+# Disable "first line in file should be a top level heading".
+# Our templates begin with H2's since it is assumed the issue/PR title will be the H1 on the page.
+# https://github.com/DavidAnson/markdownlint/blob/master/doc/Rules.md#md041
 MD041: false
