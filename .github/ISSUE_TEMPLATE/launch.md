@@ -19,6 +19,8 @@ please update this ticket description to include references to those tickets.
 - [ ] Determine where the starting database will come from.
 - [ ] Determine who manages DNS.
 - [ ] Determine the caching strategy.
+- [ ] Take screenshots of "before" site.
+- [ ] Add site to [web.archive.org](http://web.archive.org/).
 
 ## Security
 - [ ] Review the [Security Review module](https://www.drupal.org/project/security_review).
@@ -95,6 +97,10 @@ please update this ticket description to include references to those tickets.
       if a CDN or reverse-proxy is being used.
 - [ ] Run performance tests with a tool such as Calibre, Lighthouse, or
       PageSpeed Insights and fix the issues and/or log post launch tickets.
+- [ ] Configure field help/descriptive text.
+- [ ] Optimize media creation/referencing experience.
+- [ ] Verify that Metatags & JSON-LD are configured.
+- [ ] Verify that images are being served in a performant manner.
 
 ## Hosting
 - [ ] Determine who will provide the SSL certificate.
