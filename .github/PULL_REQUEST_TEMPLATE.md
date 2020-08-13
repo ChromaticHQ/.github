@@ -1,5 +1,6 @@
 ## Description
-<!--- Describe your changes in detail. The sections suggested below  -->
+<!--- Describe your changes in detail. The sections suggested are intended to make -->
+<!--- it easy to create a descriptive PR that is easy to review. Change as needed! --> 
 
 ## Motivation / Context
 <!--- Why is this change required? What problem does it solve? -->
