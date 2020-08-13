@@ -27,5 +27,4 @@ tickets.
 - [ ] Set up Lando file ([example](https://github.com/ChromaticHQ/chromatichq.com/blob/master/.lando.yml)).
 - [ ] Set up a production environment.
 - [ ] Set up nightly database backups to S3.
-- [ ] Set up development servers.
 - [ ] Set up automated deployments.
