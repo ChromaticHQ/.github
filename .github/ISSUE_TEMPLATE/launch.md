@@ -99,8 +99,8 @@ please update this ticket description to include references to those tickets.
       PageSpeed Insights and fix the issues and/or log post launch tickets.
 - [ ] Configure field help/descriptive text.
 - [ ] Optimize media creation/referencing experience.
-- [ ] Verify that Metatags & JSON-LD are configured.
-- [ ] Verify that images are being served in a performant manner.
+- [ ] Verify that meta tags & JSON-LD are configured.
+- [ ] Verify that images are being served in a efficient manner.
 
 ## Hosting
 - [ ] Determine who will provide the SSL certificate.
