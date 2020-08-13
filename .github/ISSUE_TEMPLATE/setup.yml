@@ -22,7 +22,7 @@ tickets.
       to run code style checks on YML, shell scripts, and execute PHP
       checks/front-end linting tools.
 - [ ] Set up `settings.php` file infrastructure.
-- [ ] Set up Composer file.
+- [ ] Set up a `composer.json` file.
 - [ ] Set up front-end tooling.
 - [ ] Set up Lando file ([example](https://github.com/ChromaticHQ/chromatichq.com/blob/master/.lando.yml)).
 - [ ] Set up a production environment.
