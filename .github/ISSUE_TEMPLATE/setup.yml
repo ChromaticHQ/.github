@@ -23,7 +23,7 @@ those tickets.
 - [ ] Set up `settings.php` file infrastructure.
 - [ ] Set up a `composer.json` file.
 - [ ] Create a theme at `web/themes/custom/THEME_NAME`.
-- [ ] 'Set up front-end tooling. This should provide:'
+- [ ] Set up front-end tooling.
     - [ ] A task to build the theme’s static assets.
     - [ ] Development workflow tasks to build assets automatically, watch for changes, refresh the browser automatically, etc.
     - [ ] CSS and JS linting tasks, as well as any other testing tasks that relevant to the project.
