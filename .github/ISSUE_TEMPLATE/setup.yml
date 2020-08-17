@@ -17,7 +17,6 @@ those tickets.
 - [ ] Set up [Tugboat](https://dashboard.tugboat.qa/).
 - [ ] Set up Dependabot ([example](https://github.com/ChromaticHQ/chromatichq.com/blob/master/.github/dependabot.yml)).
 - [ ] Set up PHP code style checks.
-- [ ] Set up front-end linting.
 - [ ] Set up GitHub Actions (example)[https://github.com/ChromaticHQ/chromatichq.com/tree/master/.github/workflows]
       to run code style checks on YML, shell scripts, and execute PHP
       checks/front-end linting tools.
