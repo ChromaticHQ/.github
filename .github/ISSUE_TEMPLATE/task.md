@@ -12,15 +12,18 @@ assignees: ''
 <!-- A clear and concise description of what the problem is. Is your request
 related to a problem? Ex. I'm always frustrated when [...] -->
 
+<!-- A clear and concise description of the task. -->
+<!-- The sections suggested are intended to make it easy to create a -->
+<!-- descriptive issue Change as needed! -->
+
 ## Proposed Solution
 
-<!-- A clear and concise description of what you want to happen. -->
+<!-- What do you think should happen? -->
 
 ## Alternatives Considered
 
-<!-- A clear and concise description of any alternative solutions or features
-you've considered. -->
+<!-- Have any alternative solutions been considered? -->
 
 ## Additional Context
 
-<!-- Add any other context or screenshots about the feature request here. -->
+<!-- Is there any additional context that would be helpful? -->
