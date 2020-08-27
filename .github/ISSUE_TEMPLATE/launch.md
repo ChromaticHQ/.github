@@ -28,7 +28,7 @@ those tickets.
 - [ ] Verify that development related accounts/passwords have been reset or removed.
 - [ ] Verify that proper permissions are set on `settings.php` and
       `services.yml` files.
-- [ ] Confirm that development modules are disabled on produciton
+- [ ] Confirm that development modules are disabled on production
       (e.g. `kint`, `devel_generate`, `devel`, etc).
 - [ ] Verify that `$settings['trusted_host_patterns']` is configured.
 
