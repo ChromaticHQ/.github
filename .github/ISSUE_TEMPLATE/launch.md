@@ -24,7 +24,7 @@ those tickets.
 - [ ] Add site to [web.archive.org](http://web.archive.org/).
 
 ## Security
-- [ ] Review the [Security Review module](https://www.drupal.org/project/security_review).
+- [ ] Consider installing & configuring the [SecKit module](https://www.drupal.org/project/seckit).
 - [ ] Verify that development related accounts/passwords have been reset or removed.
 - [ ] Verify that proper permissions are set on `settings.php` and
       `services.yml` files.
