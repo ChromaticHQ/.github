@@ -11,6 +11,7 @@ The approach was taken from
 [this help page](https://help.github.com/en/github/building-a-strong-community/creating-a-default-community-health-file).
 
 ## Stalebot Configuration
+
 The default [StaleBot](https://github.com/probot/stale)
 [configuration](.github/stale.yml) included in this repository can be enabled
 by configuring a repository's `.github/stale.yml` to contain the following:
