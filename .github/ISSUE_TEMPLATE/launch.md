@@ -161,5 +161,6 @@ those tickets.
       production domain (e.g. `$config['stage_file_proxy.settings']['origin']`).
 - [ ] Update automated or manual tests to point to the new production domain.
 - [ ] Confirm that third party integrations are working as expected.
+- [ ] Add site to Updown.io uptime monitoring.
 - [ ] Disable migration related modules and source database connectivity as
       applicable.
