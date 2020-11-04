@@ -15,8 +15,7 @@ those tickets.
 
 - [ ] Create a README.
 - [ ] Set up [Tugboat](https://dashboard.tugboat.qa/).
-- [ ] Create an AWS user and S3 bucket with an access policy and bucket lifecycle rule for database backups.
-  [further documentation](https://github.com/ChromaticHQ/Chromatic-Handbook/blob/main/technical/database-backup-aws-s3.md)
+- [ ] Create an AWS user and S3 bucket with an access policy and bucket lifecycle rule for database backups ([documentation](https://github.com/ChromaticHQ/Chromatic-Handbook/blob/main/technical/database-backup-aws-s3.md)).
 - [ ] Set up Dependabot ([example](https://github.com/ChromaticHQ/chromatichq.com/blob/master/.github/dependabot.yml)).
 - [ ] Set up PHP code style checks.
 - [ ] Set up GitHub Actions (example)[https://github.com/ChromaticHQ/chromatichq.com/tree/master/.github/workflows]
