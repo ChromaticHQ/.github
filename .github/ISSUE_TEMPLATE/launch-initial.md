@@ -1,5 +1,5 @@
 ---
-name: Launch
+name: Launch - Initial
 about: Prepare for a site launch with a checklist of common steps.
 title: ''
 labels: ''
