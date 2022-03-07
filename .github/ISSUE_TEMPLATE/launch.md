@@ -12,7 +12,6 @@ If an item is not relevant to this project, [strike it out](https://docs.github.
 (e.g. `~~Not relevant item~~`) or remove it. If child tickets are created for
 any line-item, please update this description to include references to them.
 
-those tickets.
 ## Preparation
 - [ ] Determine production domain.
 - [ ] Determine if any existing traffic needs to be proxied or redirected.
