@@ -26,6 +26,7 @@ any line-item, please update this description to include references to them.
 - [ ] Verify that config exports and imports cleanly.
 - [ ] Determine the necessary cron frequency.
 - [ ] Validate that a cron trigger is configured and the frequency is acceptable.
+- [ ] [Disable Drupal system cron](https://www.drupal.org/docs/administering-a-drupal-site/cron-automated-tasks/cron-automated-tasks-overview#s-disabledrupal-cron).
 - [ ] Verify that the deployment process works.
 - [ ] Verify that Drupal's status report page is clear of issues.
 - [ ] Verify that migrations are complete.

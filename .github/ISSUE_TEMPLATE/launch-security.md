@@ -17,4 +17,4 @@ any line-item, please update this description to include references to them.
 - [ ] Verify that proper permissions are set on settings.php and services.yml files.
 - [ ] Confirm that development modules are disabled on production (e.g. kint, devel_generate, devel, etc).
 - [ ] Verify that `$settings['trusted_host_patterns']` is configured.
-- [ ] Verify that cron runs from page requests are disabled (`$settings['update_free_access'] = FALSE;)`.
+- [ ] Verify that database updates via the UI are disabled (`$settings['update_free_access'] = FALSE;`).
