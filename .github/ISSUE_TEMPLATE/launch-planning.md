@@ -24,10 +24,8 @@ any line-item, please update this description to include references to them.
 - [ ] Take screenshots of "before" site.
 - [ ] Add site to [web.archive.org](http://web.archive.org/).
 
-
 ## QA Process
 - [ ] Determine if a QA site is needed.
 - [ ] Confirm that `robots.txt` or the corresponding HTTP header is configured to block traffic to the QA site.
 - [ ] Implement password protection with HTTP Authorization if required.
 - [ ] Verify that proper testing API keys are configured if needed.
-

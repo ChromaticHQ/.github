@@ -16,7 +16,7 @@ any line-item, please update this description to include references to them.
 - [ ] Confirm that the content migration is complete.
 
 ## Account Management
-- [ ] Set expectations for post-launch support
+- [ ] Set expectations for post-launch support.
 - [ ] Determine what our next engagement will look like.
 - [ ] How long will the team continue working under the current engagement after launch?
 - [ ] What bugs will we fix after launch without incurring cost?

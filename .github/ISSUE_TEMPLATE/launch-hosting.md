@@ -21,3 +21,6 @@ any line-item, please update this description to include references to them.
 - [ ] Create and test redirect rules.
 - [ ] Create and test reverse-proxy rules.
 - [ ] Verify that asset compression is enabled.
+- [ ] Determine who is responsible for the DNS and what needs to happen and when.
+- [ ] Determine who is responsible from the hosting provider. What do they need from us to deliver when and how we want them to?
+- [ ] Determine who is responsible from the client’s IT team. Security team? What do they need from us to deliver when and how we want them to?
