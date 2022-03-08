@@ -1,6 +1,6 @@
 ---
 name: Launch - Final
-about: Prepare for a site launch with a checklist of common steps.
+about: Final checklist of tasks to complete before a site launch.
 title: ''
 labels: ''
 assignees: ''
@@ -32,7 +32,7 @@ any line-item, please update this description to include references to them.
 - [ ] Validate that all development work is complete and notify the client.
 - [ ] Determine and communicate the expectations we have of the client prior to launch.
 - [ ] Validate that all parties are clear on what will and will not be going live at launch.
-- [ ] Plan project close actions
+- [ ] Plan project close actions.
 - [ ] Document process for denoting launch blocker bugs.
 
 ## Launch Prep
@@ -43,8 +43,8 @@ any line-item, please update this description to include references to them.
 - [ ] Determine who will decide if a roll-back is needed.
 - [ ] Determine who manages DNS and confirm they will be available to update the entries for launch.
 - [ ] Lower DNS TTL to ensure quick propagation on launch day.
-- [ ] Verify that robots.txt is configured to allow traffic to the production site (i.e. remove any changes that were made for development).
-- [ ] Verify that users of the site are aware of the cutover time/plan.
+- [ ] Verify that `robots.txt` is configured to allow traffic to the production site (i.e. remove any changes that were made for development).
+- [ ] Verify that users of the site are aware of the cut-over time/plan.
 - [ ] Create a calendar invite with a video call link that can be shared with everyone who is involved with the launch.
 - [ ] Verify that user accounts have been migrated or recreated, and that users have access they need.
 - [ ] Validate that bug fixes are complete or will be completed on time.
@@ -56,5 +56,6 @@ any line-item, please update this description to include references to them.
 - [ ] Let the client know when the launch process begins.
 - [ ] Disable HTTP Authorization if applicable.
 - [ ] Update DNS entries.
+- [ ] Update SSL certs as needed.
 - [ ] Test the site manually for large obvious issues.
 - [ ] Run through the previously created test plan.

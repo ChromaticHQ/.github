@@ -1,6 +1,6 @@
 ---
 name: Launch - Analytics
-about: Prepare for a site launch with a checklist of common steps.
+about: Checklist of analytics related tasks to complete for a site launch.
 title: ''
 labels: ''
 assignees: ''
@@ -14,5 +14,4 @@ any line-item, please update this description to include references to them.
 
 - [ ] Configure Google Tag Manager if applicable.
 - [ ] Configure Google Analytics or your analytics tool of choice.
-- [ ] Configure New Relic if applicable.
 - [ ] Verify analytics tools are only reporting from the production environment or reporting separately depending on requirements.

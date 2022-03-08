@@ -1,6 +1,6 @@
 ---
 name: Launch - QA
-about: Prepare for a site launch with a checklist of common steps.
+about: Checklist of QA related tasks to complete for a site launch.
 title: ''
 labels: ''
 assignees: ''

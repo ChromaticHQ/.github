@@ -1,6 +1,6 @@
 ---
 name: Launch - Development
-about: Prepare for a site launch with a checklist of common steps.
+about: Checklist of development related tasks to complete for a site launch.
 title: ''
 labels: ''
 assignees: ''
@@ -24,6 +24,7 @@ any line-item, please update this description to include references to them.
 - [ ] Verify that Stage File Proxy is disabled on PROD.
 - [ ] Enable and configure Stage File Proxy for non-production environments.
 - [ ] Verify that config exports and imports cleanly.
+- [ ] Verify that the config check tooling is enabled in Tugboat.
 - [ ] Determine the necessary cron frequency.
 - [ ] Validate that a cron trigger is configured and the frequency is acceptable.
 - [ ] [Disable Drupal system cron](https://www.drupal.org/docs/administering-a-drupal-site/cron-automated-tasks/cron-automated-tasks-overview#s-disabledrupal-cron).
@@ -37,10 +38,10 @@ any line-item, please update this description to include references to them.
 - [ ] Verify that no API keys or sensitive credentials are stored in code.
 - [ ] Determine if "helper" node types and/or taxonomy term pages should appear and hide or block access as needed.
 - [ ] Verify that alias patterns and updates/redirects are working correctly.
-- [ ] Verify that $settings['hash_salt'] is set.
-- [ ] Verify that $settings['update_free_access'] = FALSE; is set.
-- [ ] Verify that $settings['omit_vary_cookie'] is configured correctly.
-- [ ] Verify that $settings['file_public_path'] and file_private_path are configured correctly.
+- [ ] Verify that `$settings['hash_salt']` is set.
+- [ ] Verify that `$settings['update_free_access'] = FALSE;` is set.
+- [ ] Verify that `$settings['omit_vary_cookie']` is configured correctly.
+- [ ] Verify that `$settings['file_public_path']` and file_private_path are configured correctly.
 - [ ] Confirm that the 404 page is working and styled as expected.
-- [ ] Verify that $settings['reverse_proxy_*'] configuration is set correctly if a CDN or reverse-proxy is being used.
+- [ ] Verify that `$settings['reverse_proxy_*']` configuration is set correctly if a CDN or reverse-proxy is being used.
 - [ ] Run performance tests with a tool such as Calibre, Lighthouse, or PageSpeed Insights and fix the issues and/or log post launch tickets.

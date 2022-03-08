@@ -1,6 +1,6 @@
 ---
 name: Launch - Post Launch
-about: Prepare for a site launch with a checklist of common steps.
+about: Checklist of tasks to complete after a site launch.
 title: ''
 labels: ''
 assignees: ''
@@ -19,8 +19,9 @@ any line-item, please update this description to include references to them.
 - [ ] Run performance tests with a tool such as Calibre, Lighthouse, or PageSpeed Insights to confirm the site performs as expected.
 - [ ] Update Stage File Proxy origin URL configuration to point to the production domain (e.g. $config['stage_file_proxy.settings']['origin']).
 - [ ] Confirm that third party integrations are working as expected.
-- [ ] Add site to Updown.io uptime monitoring.
+- [ ] Add site to [updown.io](https://updown.io) uptime monitoring.
 - [ ] Disable migration related modules and source database connectivity as applicable.
+- [ ] Configure Sentry if applicable.
 
 ## Ongoing Process
 - [ ] Update automated or manual tests to point to the new production domain.

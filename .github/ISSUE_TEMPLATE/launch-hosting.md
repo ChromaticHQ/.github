@@ -1,6 +1,6 @@
 ---
 name: Launch - Hosting
-about: Prepare for a site launch with a checklist of common steps.
+about: Checklist of hosting related tasks to complete for a site launch.
 title: ''
 labels: ''
 assignees: ''
