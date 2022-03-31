@@ -1,7 +1,18 @@
-Description
+---
+name: Launch - Scope
+about: Initial ticket used to define the launch scope and process.
+title: ''
+labels: ''
+assignees: ''
+
+---
+
+### Description
+
 Define the tasks that will lead to a successful launch of this project, create tickets for those tasks, and address any known unknowns pertaining those tasks.
 
-Proposed Solution
+### Proposed Solution
+
 - [ ] Go through the `Launch - *` issue templates, identify the ones that are relevant to this project, and create new issues with them, modifying them as necessary.
 - [ ] Coordinate with the project manager and technical lead on what this means for the project (timeline, budget, scope, etc).
 - [ ] Describe what “launch” consists of for this project in broad terms. Post this summary in this ticket and ensure that the whole team is on board and understands it. We may want to share this summary in other places such as Basecamp as well. Some examples:
