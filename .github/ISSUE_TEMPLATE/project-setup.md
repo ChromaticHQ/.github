@@ -1,7 +1,7 @@
 ---
-name: Setup
+name: Project Setup
 about: Prepare for development with basic project setup.
-title: ''
+title: Project Setup
 labels: ''
 assignees: ''
 
