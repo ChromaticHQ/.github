@@ -15,3 +15,4 @@ assignees: ''
 - [ ] Configure Google Tag Manager if applicable.
 - [ ] Configure Google Analytics or your analytics tool of choice.
 - [ ] Verify analytics tools are only reporting from the production environment or reporting separately depending on requirements.
+- [ ] Configure Sentry if applicable.

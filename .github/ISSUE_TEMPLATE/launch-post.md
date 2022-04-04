@@ -21,7 +21,6 @@ assignees: ''
 - [ ] Confirm that third party integrations are working as expected.
 - [ ] Add site to [updown.io](https://updown.io) uptime monitoring.
 - [ ] Disable migration related modules and source database connectivity as applicable.
-- [ ] Configure Sentry if applicable.
 
 ## Ongoing Process
 - [ ] Update automated or manual tests to point to the new production domain.
