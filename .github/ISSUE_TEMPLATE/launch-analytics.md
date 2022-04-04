@@ -1,7 +1,7 @@
 ---
 name: Launch - Analytics
 about: Checklist of analytics related tasks to complete for a site launch.
-title: ''
+title: Launch - Analytics
 labels: ''
 assignees: ''
 

@@ -1,7 +1,7 @@
 ---
 name: Launch - Hosting
 about: Checklist of hosting related tasks to complete for a site launch.
-title: ''
+title: Launch - Hosting
 labels: ''
 assignees: ''
 

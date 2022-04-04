@@ -1,7 +1,7 @@
 ---
 name: Launch - Security
 about: Checklist of security related tasks to complete for a site launch.
-title: ''
+title: Launch - Security
 labels: ''
 assignees: ''
 

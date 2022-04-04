@@ -1,7 +1,7 @@
 ---
 name: Launch - Development
 about: Checklist of development related tasks to complete for a site launch.
-title: ''
+title: Launch - Development
 labels: ''
 assignees: ''
 

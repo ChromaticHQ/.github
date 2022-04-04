@@ -1,7 +1,7 @@
 ---
 name: Launch - Planning
 about: Checklist of initial planning related tasks to complete for a site launch.
-title: ''
+title: Launch - Planning
 labels: ''
 assignees: ''
 

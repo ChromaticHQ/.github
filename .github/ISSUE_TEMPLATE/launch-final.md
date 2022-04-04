@@ -1,7 +1,7 @@
 ---
 name: Launch - Final
 about: Final checklist of tasks to complete before a site launch.
-title: ''
+title: Launch - Final
 labels: ''
 assignees: ''
 

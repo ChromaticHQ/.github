@@ -1,7 +1,7 @@
 ---
 name: Launch - Performance
 about: Checklist of performance related tasks to complete for a site launch.
-title: ''
+title: Launch - Performance
 labels: ''
 assignees: ''
 

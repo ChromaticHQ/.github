@@ -1,7 +1,7 @@
 ---
 name: Launch - Post Launch
 about: Checklist of tasks to complete after a site launch.
-title: ''
+title: Launch - Post Launch
 labels: ''
 assignees: ''
 
