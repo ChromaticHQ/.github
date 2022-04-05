@@ -1,7 +1,7 @@
 ---
 name: Launch - Scope
 about: Initial ticket used to define the launch scope and process.
-title: ''
+title: Launch - Scope
 labels: ''
 assignees: ''
 
