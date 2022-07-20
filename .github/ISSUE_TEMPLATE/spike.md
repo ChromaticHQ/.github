@@ -23,8 +23,8 @@ assignees: ''
 
 <!-- To be filled-in after all research has taken place. -->
 <!-- This may be an explanation of the issue or approach to be taken, -->
-<!-- a link to a newly-created milestone, a new task/bug ticket, -->
-<!-- or a combination thereof. -->
+<!-- a link to a newly-created milestone, a new task/bug ticket, or a -->
+<!-- combination thereof. -->
 
 ## Additional Context
 
