@@ -12,7 +12,7 @@ assignees: ''
 <!-- A clear and concise description of the issue or request that requires -->
 <!-- triage before it can be worked on. -->
 <!-- The sections suggested are intended to make it easy to create a -->
-<!-- descriptive issue Change as needed! -->
+<!-- descriptive issue. Change as needed! -->
 
 ## Questions / Areas of Uncertainty
 
@@ -23,7 +23,7 @@ assignees: ''
 
 <!-- To be filled-in after all research has taken place. -->
 <!-- This may be an explanation of the issue or approach to be taken, -->
-<!-- a link to a newly-created Epic milestone, a new task/bug ticket, -->
+<!-- a link to a newly-created milestone, a new task/bug ticket, -->
 <!-- or a combination thereof. -->
 
 ## Additional Context
