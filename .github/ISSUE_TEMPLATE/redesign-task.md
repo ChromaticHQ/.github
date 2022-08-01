@@ -2,7 +2,7 @@
 name: Redesign Task
 about: Create a task to describe redesign of specific element.
 title: ''
-labels: 'enhancement'
+labels: ''
 assignees: ''
 
 ---
