@@ -14,5 +14,5 @@ Despite our best intentions, documentation frequently becomes outdated or incomp
 ## Tasks
 
 - [ ] Review the README for accuracy and completeness. 
-- [ ] Review all open @todo statements and resolve them or ensure that tickets are created for them.
+- [ ] Review all `@todo` statements in the codebase and resolve them or ensure that tickets are created for them.
 - [ ] Review Dependabot and GitHub config to ensure the correct usernames/labels/etc are being used.
