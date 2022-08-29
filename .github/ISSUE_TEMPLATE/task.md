@@ -24,6 +24,14 @@ assignees: ''
 <!-- case, set this section to “n/a” and any PRs associated with it may be -->
 <!-- merged with only internal review. -->
 
+## Acceptance Criteria
+
+<!-- A list of one or more requirements that must be met in order to for -->
+<!-- this ticket to be considered “done.” Use checkboxes to mark each item -->
+<!-- as an actionable task. -->
+
+- [ ] tk…
+
 ## Proposed Solution
 
 <!-- What do you think should happen? -->
