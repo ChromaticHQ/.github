@@ -49,7 +49,7 @@ assignees: ''
 <!-- this ticket to be considered “done.” Use checkboxes to mark each item -->
 <!-- as an actionable task. -->
 
-- [ ] tk…
+- [ ] TK
 
 ## Screenshots
 
