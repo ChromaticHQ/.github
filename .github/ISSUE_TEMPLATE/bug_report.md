@@ -45,9 +45,9 @@ assignees: ''
 
 ## Acceptance Criteria
 
-<!-- A list of one or more requirements that must be met in order to for -->
-<!-- this ticket to be considered “done.” Use checkboxes to mark each item -->
-<!-- as an actionable task. -->
+<!-- A list of one or more requirements that must be met in order for this -->
+<!-- ticket to be considered “done.” Use checkboxes to mark each item as an -->
+<!-- actionable task. -->
 
 - [ ] TK
 
