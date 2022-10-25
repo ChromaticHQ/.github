@@ -19,3 +19,12 @@ by configuring a repository's `.github/stale.yml` to contain the following:
 ```yaml
 _extends: .github
 ```
+
+## Launch Issue Templates
+
+We previously created a collection of launch related issue templates. We found
+that they were rarely/never used and just got in the way. To solve this we
+moved them into a folder so they won't appear as issue templates.
+
+They can still be accessed here:
+- https://github.com/ChromaticHQ/.github/tree/main/.github/ISSUE_TEMPLATE/launch
