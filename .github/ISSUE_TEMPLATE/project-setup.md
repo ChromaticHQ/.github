@@ -32,3 +32,7 @@ assignees: ''
 - [ ] Set up a production environment.
 - [ ] Set up nightly database backups to S3.
 - [ ] Set up automated deployments.
+- [ ] QA Strategy
+    - [ ] Discuss with client if/how they will be resourcing QA cycles for code changes and what that process will be. 
+    - [ ] Request a test plan/script (step by step smoke test) so we can also jump in and verify code changes if client can't. 
+    - [ ] If not test plan exists, work with client to develop such a test plan and add it to the project materials. README is a good place to link to a TESTPLAN.md.
