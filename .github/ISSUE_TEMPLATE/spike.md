@@ -22,9 +22,12 @@ assignees: ''
 ## Outcome
 
 <!-- To be filled-in after all research has taken place. -->
-<!-- This may be an explanation of the issue or approach to be taken, -->
-<!-- a link to a newly-created milestone, a new task/bug ticket, or a -->
-<!-- combination thereof. -->
+<!-- This ideally would include an explanation of the issue and the approach -->
+<!-- to be taken and will typically result in a link to a newly-created -->
+<!-- milestone, a new task/bug ticket, or some combination thereof. Any -->
+<!-- tickets created as a result of this spike should be detailed and -->
+<!-- estimated to the best of your ability, including any applicable -->
+<!-- multiplier to account for PM time, reviews, admin time, or added risk. -->
 
 ## Additional Context
 
