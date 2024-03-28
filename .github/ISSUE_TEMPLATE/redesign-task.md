@@ -24,14 +24,6 @@ assignees: ''
 <!-- case, set this section to “n/a” and any PRs associated with it may be -->
 <!-- merged with only internal review. -->
 
-## Acceptance Criteria
-
-<!-- A list of one or more requirements that must be met in order for this -->
-<!-- ticket to be considered “done.” Use checkboxes to mark each item as an -->
-<!-- actionable task. -->
-
-- [ ] tk…
-
 ## Design Mocks
 
 <!-- Provide the link/links to design mockups? -->
@@ -39,3 +31,9 @@ assignees: ''
 ## Screenshots
 
 <!-- Provide a screenshot of the element you are styling. -->
+
+```[tasklist]
+### Tasks
+```
+<!-- A list of one or more requirements that must be met in order for this -->
+<!-- ticket to be considered “done.” -->
