@@ -43,14 +43,6 @@ assignees: ''
 
 <!-- A description of what you expected to happen. -->
 
-## Acceptance Criteria
-
-<!-- A list of one or more requirements that must be met in order for this -->
-<!-- ticket to be considered “done.” Use checkboxes to mark each item as an -->
-<!-- actionable task. -->
-
-- [ ] TK
-
 ## Screenshots
 
 <!-- Would including screenshots help explain the problem? -->
@@ -58,3 +50,9 @@ assignees: ''
 ## Additional context
 
 <!-- Is there any additional context that would be helpful? -->
+
+```[tasklist]
+### Tasks
+```
+<!-- A list of one or more requirements that must be met in order for this -->
+<!-- ticket to be considered “done.” -->
