@@ -37,8 +37,6 @@ assignees: ''
 
 <!-- Is there any additional context that would be helpful? -->
 
-```[tasklist]
-### Tasks
-```
-<!-- A list of one or more requirements that must be met in order for this -->
-<!-- ticket to be considered “done.” -->
+## Tasks
+<!-- What sub-tasks are part of this issue? -->
+- [ ] TK

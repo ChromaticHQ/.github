@@ -24,21 +24,19 @@ Resolves
 <!-- A list of one or more individuals, responsible for seeing this -->
 <!-- error or bug resolved/patched. -->
 
-
 ## Environment
-<!-- The context in which the report was filed. -->
 
+<!-- The context in which the report was filed. -->
 
 ## Suggested Solution
 
 <!-- What is the suggestion Sentry has provided? -->
 
+## Tasks
+
+<!-- What sub-tasks are part of this issue? -->
+- [ ] TK
 
 ## Screenshots
 
 <!-- Would including screenshots help explain the problem? -->
-
-
-```[tasklist]
-### Tasks
-```
