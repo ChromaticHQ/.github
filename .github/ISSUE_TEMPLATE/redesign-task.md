@@ -28,12 +28,12 @@ assignees: ''
 
 <!-- Provide the link/links to design mockups? -->
 
+## Tasks
+
+<!-- A list of one or more requirements that must be met in order for this -->
+<!-- ticket to be considered “done.” -->
+- [ ] TK
+
 ## Screenshots
 
 <!-- Provide a screenshot of the element you are styling. -->
-
-```[tasklist]
-### Tasks
-```
-<!-- A list of one or more requirements that must be met in order for this -->
-<!-- ticket to be considered “done.” -->
